@@ -16,9 +16,9 @@ export default function Contact() {
           style={{ animationDelay: "0.3s" }}
         >
           {[
-            { label: "Email", value: "hello@ryancadby.com", href: "mailto:hello@ryancadby.com" },
+            { label: "Email", value: "ryan@ryancadby.com", href: "mailto:ryan@ryancadby.com" },
             { label: "GitHub", value: "github.com/ryancadby", href: "https://github.com/ryancadby" },
-            { label: "LinkedIn", value: "linkedin.com/in/ryancadby", href: "https://linkedin.com/in/ryancadby" },
+            { label: "LinkedIn", value: "linkedin.com/in/ryan-cadby", href: "https://www.linkedin.com/in/ryan-cadby/" },
           ].map((link) => (
             <a
               key={link.label}
